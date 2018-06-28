@@ -1,45 +1,19 @@
-2018-06-27 22:08:03.743 [6606] main/101/storage_2_b C> Tarantool 2.0.4-314-g1695215b0
-2018-06-27 22:08:03.744 [6606] main/101/storage_2_b C> log level 5
-2018-06-27 22:08:03.744 [6606] main/101/storage_2_b I> mapping 117440512 bytes for memtx tuple arena...
-2018-06-27 22:08:03.744 [6606] main/101/storage_2_b I> mapping 134217728 bytes for vinyl tuple arena...
-2018-06-27 22:08:03.747 [6606] iproto/101/main I> binary: bound to 127.0.0.1:3304
-2018-06-27 22:08:03.747 [6606] main/105/applier/storage@127.0.0.1:3303 I> remote master is 2.0.4 at 127.0.0.1:3303
+2018-06-28 12:58:18.103 [57185] main/101/storage_2_b C> Tarantool 2.0.4-314-g1695215b0
+2018-06-28 12:58:18.104 [57185] main/101/storage_2_b C> log level 5
+2018-06-28 12:58:18.104 [57185] main/101/storage_2_b I> mapping 117440512 bytes for memtx tuple arena...
+2018-06-28 12:58:18.104 [57185] main/101/storage_2_b I> mapping 134217728 bytes for vinyl tuple arena...
+2018-06-28 12:58:18.107 [57185] iproto/101/main I> binary: bound to 127.0.0.1:3304
+2018-06-28 12:58:18.107 [57185] main/105/applier/storage@127.0.0.1:3303 I> remote master is 2.0.4 at 127.0.0.1:3303
 
-2018-06-27 22:08:03.748 [6606] main/105/applier/storage@127.0.0.1:3303 I> authenticated
-2018-06-27 22:08:03.748 [6606] main/101/storage_2_b I> bootstrapping replica from 127.0.0.1:3303
-2018-06-27 22:08:03.752 [6606] main/105/applier/storage@127.0.0.1:3303 I> initial data received
-2018-06-27 22:08:03.752 [6606] main/105/applier/storage@127.0.0.1:3303 I> final data received
-2018-06-27 22:08:03.752 [6606] snapshot/101/main I> saving snapshot `./data/storage_2_b/00000000000000000045.snap.inprogress'
-2018-06-27 22:08:03.753 [6606] snapshot/101/main I> done
-2018-06-27 22:08:03.754 [6606] main/101/storage_2_b I> ready to accept requests
-2018-06-27 22:08:03.756 [6606] main/109/checkpoint_daemon I> started
-2018-06-27 22:08:03.756 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Wed Jun 27 23:15:07 2018
-2018-06-27 22:08:03.756 [6606] main/101/storage_2_b I> set 'read_only' configuration option to true
-2018-06-27 22:08:03.756 [6606] main/101/storage_2_b I> Box has been configured
-2018-06-27 22:08:03.758 [6606] main C> entering the event loop
-2018-06-27 23:15:07.769 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-27 23:15:07.772 [6606] snapshot/101/main I> saving snapshot `./data/storage_2_b/00000000000000001546.snap.inprogress'
-2018-06-27 23:15:07.776 [6606] snapshot/101/main I> done
-2018-06-27 23:15:07.777 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 00:15:07 2018
-2018-06-28 00:15:07.778 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 00:15:07.778 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 01:15:07 2018
-2018-06-28 01:15:07.781 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 01:15:07.782 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 02:15:07 2018
-2018-06-28 02:15:07.783 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 02:15:07.784 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 03:15:07 2018
-2018-06-28 03:15:07.793 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 03:15:07.793 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 04:15:07 2018
-2018-06-28 04:15:07.794 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 04:15:07.794 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 05:15:07 2018
-2018-06-28 05:15:07.804 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 05:15:07.804 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 06:15:07 2018
-2018-06-28 06:15:07.807 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 06:15:07.808 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 07:15:07 2018
-2018-06-28 07:15:07.819 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 07:15:07.820 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 08:15:07 2018
-2018-06-28 08:15:07.821 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 08:15:07.822 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 09:15:07 2018
-2018-06-28 09:15:07.823 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 09:15:07.824 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 10:15:07 2018
-2018-06-28 10:15:07.828 [6606] main/109/checkpoint_daemon I> making snapshot...
-2018-06-28 10:15:07.830 [6606] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 11:15:07 2018
+2018-06-28 12:58:18.107 [57185] main/105/applier/storage@127.0.0.1:3303 I> authenticated
+2018-06-28 12:58:18.108 [57185] main/101/storage_2_b I> bootstrapping replica from 127.0.0.1:3303
+2018-06-28 12:58:18.113 [57185] main/105/applier/storage@127.0.0.1:3303 I> initial data received
+2018-06-28 12:58:18.113 [57185] main/105/applier/storage@127.0.0.1:3303 I> final data received
+2018-06-28 12:58:18.114 [57185] snapshot/101/main I> saving snapshot `./data/storage_2_b/00000000000000000045.snap.inprogress'
+2018-06-28 12:58:18.115 [57185] snapshot/101/main I> done
+2018-06-28 12:58:18.115 [57185] main/101/storage_2_b I> ready to accept requests
+2018-06-28 12:58:18.117 [57185] main/109/checkpoint_daemon I> started
+2018-06-28 12:58:18.117 [57185] main/109/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 14:50:30 2018
+2018-06-28 12:58:18.117 [57185] main/101/storage_2_b I> set 'read_only' configuration option to true
+2018-06-28 12:58:18.117 [57185] main/101/storage_2_b I> Box has been configured
+2018-06-28 12:58:18.118 [57185] main C> entering the event loop

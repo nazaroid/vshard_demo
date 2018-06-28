@@ -1,1 +1,1 @@
-/Users/a.nazarenko/Google Drive/MAIL_RU/sber/tnt/storage.lua
+/Users/a.nazarenko/Google Drive/MAIL_RU/sber/vshard_demo/storage.lua

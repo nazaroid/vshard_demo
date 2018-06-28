@@ -40,16 +40,12 @@ end)
 
 local function store_user(bucket_id, user_id, name)
     local user = {user_id, bucket_id, name}
-    log.info('store')
-    log.info(json.encode(user))
     box.space.user:insert(user)
     return true
 end
 
 local function retrieve_user(user_id)
-    log.info(user_id)
     local user = box.space.user:get(user_id)
-    log.info(json.encode(user))
     return user
 end
 

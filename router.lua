@@ -48,7 +48,7 @@ local function get_user_ctrl(req)
 
     local bucket_id = vshard.router.bucket_id(user_id)
     local user, err = vshard.router.callro(bucket_id, 'storage_api.retrieve_user', {user_id})
-    if user then
+    if user ~= nil then
         return {
             status = 200,
             headers = { ['content-type'] = 'text/json; charset=utf8' },

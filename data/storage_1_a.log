@@ -1,62 +1,31 @@
-2018-06-27 22:08:03.623 [6600] main/101/storage_1_a C> Tarantool 2.0.4-314-g1695215b0
-2018-06-27 22:08:03.624 [6600] main/101/storage_1_a C> log level 5
-2018-06-27 22:08:03.624 [6600] main/101/storage_1_a I> mapping 117440512 bytes for memtx tuple arena...
-2018-06-27 22:08:03.625 [6600] main/101/storage_1_a I> mapping 134217728 bytes for vinyl tuple arena...
-2018-06-27 22:08:03.627 [6600] iproto/101/main I> binary: bound to 127.0.0.1:3301
-2018-06-27 22:08:03.627 [6600] main/101/storage_1_a I> initializing an empty data directory
-2018-06-27 22:08:03.631 [6600] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000000000.snap.inprogress'
-2018-06-27 22:08:03.632 [6600] snapshot/101/main I> done
-2018-06-27 22:08:03.633 [6600] main/101/storage_1_a I> ready to accept requests
-2018-06-27 22:08:03.633 [6600] main/107/checkpoint_daemon I> started
-2018-06-27 22:08:03.633 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Wed Jun 27 23:11:22 2018
-2018-06-27 22:08:03.633 [6600] main/101/storage_1_a I> Box has been configured
-2018-06-27 22:08:03.633 [6600] main/101/storage_1_a I> Initializing schema
-2018-06-27 22:08:03.638 [6600] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000000036.snap.inprogress'
-2018-06-27 22:08:03.638 [6600] snapshot/101/main I> done
-2018-06-27 22:08:03.639 [6600] main/112/vshard.gc I> Start next garbage collection step
-2018-06-27 22:08:03.639 [6600] main/112/vshard.gc I> Finish garbage collection step
-2018-06-27 22:08:03.639 [6600] main/101/storage_1_a I> GC is started
-2018-06-27 22:08:03.639 [6600] main/101/storage_1_a I> Recovery is started
-2018-06-27 22:08:03.639 [6600] main/101/storage_1_a I> Took on replicaset master role
-2018-06-27 22:08:03.642 [6600] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000000042.snap.inprogress'
-2018-06-27 22:08:03.642 [6600] snapshot/101/main I> done
-2018-06-27 22:08:03.642 [6600] main/101/storage_1_a I> removing ./data/storage_1_a/00000000000000000000.snap
-2018-06-27 22:08:03.643 [6600] wal/101/main I> removing ./data/storage_1_a/00000000000000000000.xlog
-2018-06-27 22:08:03.643 [6600] main C> entering the event loop
-2018-06-27 22:08:03.668 [6600] main/104/main I> initial data sent.
-2018-06-27 22:08:03.668 [6600] relay/127.0.0.1:63978/101/main I> recover from `./data/storage_1_a/00000000000000000042.xlog'
-2018-06-27 22:08:03.668 [6600] main/104/main I> final data sent.
-2018-06-27 22:08:03.674 [6600] relay_0x104c4ed40/101/main I> recover from `./data/storage_1_a/00000000000000000042.xlog'
-2018-06-27 22:08:03.674 [6600] relay_0x104c4ed40/101/main I> done `./data/storage_1_a/00000000000000000042.xlog'
-2018-06-27 22:08:04.849 [6600] relay/127.0.0.1:63978/101/main I> recover from `./data/storage_1_a/00000000000000000045.xlog'
-2018-06-27 23:11:22.635 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-27 23:11:22.642 [6600] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000001545.snap.inprogress'
-2018-06-27 23:11:22.644 [6600] snapshot/101/main I> done
-2018-06-27 23:11:22.645 [6600] main/107/checkpoint_daemon I> removing ./data/storage_1_a/00000000000000000036.snap
-2018-06-27 23:11:22.645 [6600] main/107/checkpoint_daemon I> removing ./data/storage_1_a/00000000000000000000.vylog
-2018-06-27 23:11:22.645 [6600] wal/101/main I> removing ./data/storage_1_a/00000000000000000036.xlog
-2018-06-27 23:11:22.646 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 00:11:22 2018
-2018-06-28 00:11:22.647 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 00:11:22.647 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 01:11:22 2018
-2018-06-28 01:11:22.650 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 01:11:22.650 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 02:11:22 2018
-2018-06-28 02:11:22.653 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 02:11:22.660 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 03:11:22 2018
-2018-06-28 03:11:22.661 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 03:11:22.667 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 04:11:22 2018
-2018-06-28 04:11:22.670 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 04:11:22.673 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 05:11:22 2018
-2018-06-28 05:11:22.676 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 05:11:22.685 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 06:11:22 2018
-2018-06-28 06:11:22.687 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 06:11:22.693 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 07:11:22 2018
-2018-06-28 07:11:22.696 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 07:11:22.696 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 08:11:22 2018
-2018-06-28 08:11:22.698 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 08:11:22.705 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 09:11:22 2018
-2018-06-28 09:11:22.707 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 09:11:22.715 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 10:11:22 2018
-2018-06-28 10:11:22.717 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 10:11:22.724 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 11:11:22 2018
-2018-06-28 11:11:22.725 [6600] main/107/checkpoint_daemon I> making snapshot...
-2018-06-28 11:11:22.732 [6600] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 12:11:22 2018
+2018-06-28 12:58:17.983 [57179] main/101/storage_1_a C> Tarantool 2.0.4-314-g1695215b0
+2018-06-28 12:58:17.984 [57179] main/101/storage_1_a C> log level 5
+2018-06-28 12:58:17.985 [57179] main/101/storage_1_a I> mapping 117440512 bytes for memtx tuple arena...
+2018-06-28 12:58:17.985 [57179] main/101/storage_1_a I> mapping 134217728 bytes for vinyl tuple arena...
+2018-06-28 12:58:17.987 [57179] iproto/101/main I> binary: bound to 127.0.0.1:3301
+2018-06-28 12:58:17.987 [57179] main/101/storage_1_a I> initializing an empty data directory
+2018-06-28 12:58:17.992 [57179] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000000000.snap.inprogress'
+2018-06-28 12:58:17.993 [57179] snapshot/101/main I> done
+2018-06-28 12:58:17.993 [57179] main/101/storage_1_a I> ready to accept requests
+2018-06-28 12:58:17.994 [57179] main/107/checkpoint_daemon I> started
+2018-06-28 12:58:17.994 [57179] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 14:11:24 2018
+2018-06-28 12:58:17.994 [57179] main/101/storage_1_a I> Box has been configured
+2018-06-28 12:58:17.994 [57179] main/101/storage_1_a I> Initializing schema
+2018-06-28 12:58:18.001 [57179] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000000036.snap.inprogress'
+2018-06-28 12:58:18.001 [57179] snapshot/101/main I> done
+2018-06-28 12:58:18.002 [57179] main/112/vshard.gc I> Start next garbage collection step
+2018-06-28 12:58:18.002 [57179] main/112/vshard.gc I> Finish garbage collection step
+2018-06-28 12:58:18.002 [57179] main/101/storage_1_a I> GC is started
+2018-06-28 12:58:18.002 [57179] main/101/storage_1_a I> Recovery is started
+2018-06-28 12:58:18.002 [57179] main/101/storage_1_a I> Took on replicaset master role
+2018-06-28 12:58:18.004 [57179] snapshot/101/main I> saving snapshot `./data/storage_1_a/00000000000000000042.snap.inprogress'
+2018-06-28 12:58:18.005 [57179] snapshot/101/main I> done
+2018-06-28 12:58:18.005 [57179] main/101/storage_1_a I> removing ./data/storage_1_a/00000000000000000000.snap
+2018-06-28 12:58:18.005 [57179] wal/101/main I> removing ./data/storage_1_a/00000000000000000000.xlog
+2018-06-28 12:58:18.006 [57179] main C> entering the event loop
+2018-06-28 12:58:18.029 [57179] main/104/main I> initial data sent.
+2018-06-28 12:58:18.029 [57179] relay/127.0.0.1:53312/101/main I> recover from `./data/storage_1_a/00000000000000000042.xlog'
+2018-06-28 12:58:18.029 [57179] main/104/main I> final data sent.
+2018-06-28 12:58:18.035 [57179] relay_0x11084ed40/101/main I> recover from `./data/storage_1_a/00000000000000000042.xlog'
+2018-06-28 12:58:18.035 [57179] relay_0x11084ed40/101/main I> done `./data/storage_1_a/00000000000000000042.xlog'
+2018-06-28 12:58:19.202 [57179] relay/127.0.0.1:53312/101/main I> recover from `./data/storage_1_a/00000000000000000045.xlog'
