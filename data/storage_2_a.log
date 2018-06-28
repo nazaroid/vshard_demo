@@ -1,0 +1,83 @@
+2018-06-27 22:08:03.701 [6604] main/101/storage_2_a C> Tarantool 2.0.4-314-g1695215b0
+2018-06-27 22:08:03.702 [6604] main/101/storage_2_a C> log level 5
+2018-06-27 22:08:03.702 [6604] main/101/storage_2_a I> mapping 117440512 bytes for memtx tuple arena...
+2018-06-27 22:08:03.703 [6604] main/101/storage_2_a I> mapping 134217728 bytes for vinyl tuple arena...
+2018-06-27 22:08:03.705 [6604] iproto/101/main I> binary: bound to 127.0.0.1:3303
+2018-06-27 22:08:03.705 [6604] main/101/storage_2_a I> initializing an empty data directory
+2018-06-27 22:08:03.711 [6604] snapshot/101/main I> saving snapshot `./data/storage_2_a/00000000000000000000.snap.inprogress'
+2018-06-27 22:08:03.712 [6604] snapshot/101/main I> done
+2018-06-27 22:08:03.712 [6604] main/101/storage_2_a I> ready to accept requests
+2018-06-27 22:08:03.713 [6604] main/107/checkpoint_daemon I> started
+2018-06-27 22:08:03.713 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Wed Jun 27 23:50:04 2018
+2018-06-27 22:08:03.713 [6604] main/101/storage_2_a I> Box has been configured
+2018-06-27 22:08:03.713 [6604] main/101/storage_2_a I> Initializing schema
+2018-06-27 22:08:03.718 [6604] snapshot/101/main I> saving snapshot `./data/storage_2_a/00000000000000000036.snap.inprogress'
+2018-06-27 22:08:03.719 [6604] snapshot/101/main I> done
+2018-06-27 22:08:03.719 [6604] main/112/vshard.gc I> Start next garbage collection step
+2018-06-27 22:08:03.719 [6604] main/112/vshard.gc I> Finish garbage collection step
+2018-06-27 22:08:03.719 [6604] main/101/storage_2_a I> GC is started
+2018-06-27 22:08:03.719 [6604] main/101/storage_2_a I> Recovery is started
+2018-06-27 22:08:03.719 [6604] main/101/storage_2_a I> Took on replicaset master role
+2018-06-27 22:08:03.719 [6604] main/101/storage_2_a I> Run rebalancer
+2018-06-27 22:08:03.723 [6604] main/115/127.0.0.1:3303 (net.box) I> connected to 127.0.0.1:3303
+2018-06-27 22:08:03.724 [6604] snapshot/101/main I> saving snapshot `./data/storage_2_a/00000000000000000042.snap.inprogress'
+2018-06-27 22:08:03.724 [6604] snapshot/101/main I> done
+2018-06-27 22:08:03.725 [6604] main/101/storage_2_a I> removing ./data/storage_2_a/00000000000000000000.snap
+2018-06-27 22:08:03.725 [6604] wal/101/main I> removing ./data/storage_2_a/00000000000000000000.xlog
+2018-06-27 22:08:03.726 [6604] main/116/127.0.0.1:3301 (net.box) I> connected to 127.0.0.1:3301
+2018-06-27 22:08:03.726 [6604] main/114/vshard.rebalancer I> Total active bucket count is not equal to total. Possibly a boostrap is not finished yet. Expected 3000, but found 0
+2018-06-27 22:08:03.726 [6604] main/114/vshard.rebalancer I> Some buckets are not active, retry rebalancing later
+2018-06-27 22:08:03.727 [6604] main C> entering the event loop
+2018-06-27 22:08:03.749 [6604] main/104/main I> initial data sent.
+2018-06-27 22:08:03.749 [6604] relay/127.0.0.1:63981/101/main I> recover from `./data/storage_2_a/00000000000000000042.xlog'
+2018-06-27 22:08:03.749 [6604] main/104/main I> final data sent.
+2018-06-27 22:08:03.755 [6604] relay_0x10504ed40/101/main I> recover from `./data/storage_2_a/00000000000000000042.xlog'
+2018-06-27 22:08:03.755 [6604] relay_0x10504ed40/101/main I> done `./data/storage_2_a/00000000000000000042.xlog'
+2018-06-27 22:08:04.842 [6604] relay/127.0.0.1:63981/101/main I> recover from `./data/storage_2_a/00000000000000000045.xlog'
+2018-06-27 22:08:07.831 [6604] main/117/main I> store
+2018-06-27 22:08:07.831 [6604] main/117/main I> [2,401,"peter"]
+2018-06-27 22:08:10.649 [6604] main/117/main I> 2
+2018-06-27 22:08:10.650 [6604] main/117/main I> [2,401,"peter"]
+2018-06-27 22:08:13.728 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-27 23:08:13.732 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-27 23:50:04.721 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-27 23:50:04.723 [6604] snapshot/101/main I> saving snapshot `./data/storage_2_a/00000000000000001546.snap.inprogress'
+2018-06-27 23:50:04.724 [6604] snapshot/101/main I> done
+2018-06-27 23:50:04.725 [6604] main/107/checkpoint_daemon I> removing ./data/storage_2_a/00000000000000000036.snap
+2018-06-27 23:50:04.725 [6604] main/107/checkpoint_daemon I> removing ./data/storage_2_a/00000000000000000000.vylog
+2018-06-27 23:50:04.725 [6604] wal/101/main I> removing ./data/storage_2_a/00000000000000000036.xlog
+2018-06-27 23:50:04.725 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 00:50:04 2018
+2018-06-28 00:08:13.735 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 00:50:04.726 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 00:50:04.727 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 01:50:04 2018
+2018-06-28 01:08:13.739 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 01:50:04.727 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 01:50:04.734 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 02:50:04 2018
+2018-06-28 02:08:13.742 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 02:50:04.736 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 02:50:04.736 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 03:50:04 2018
+2018-06-28 03:08:13.746 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 03:50:04.739 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 03:50:04.747 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 04:50:04 2018
+2018-06-28 04:08:13.747 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 04:50:04.749 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 04:50:04.757 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 05:50:04 2018
+2018-06-28 05:08:13.751 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 05:50:04.760 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 05:50:04.767 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 06:50:04 2018
+2018-06-28 06:08:13.754 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 06:50:04.767 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 06:50:04.767 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 07:50:04 2018
+2018-06-28 07:08:13.758 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 07:50:04.768 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 07:50:04.775 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 08:50:04 2018
+2018-06-28 08:08:13.762 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 08:50:04.777 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 08:50:04.783 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 09:50:04 2018
+2018-06-28 09:08:13.765 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 09:50:04.784 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 09:50:04.791 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 10:50:04 2018
+2018-06-28 10:08:13.769 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds
+2018-06-28 10:50:04.793 [6604] main/107/checkpoint_daemon I> making snapshot...
+2018-06-28 10:50:04.794 [6604] main/107/checkpoint_daemon I> scheduled the next snapshot at Thu Jun 28 11:50:04 2018
+2018-06-28 11:08:13.770 [6604] main/114/vshard.rebalancer I> The cluster is balanced ok. Schedule next rebalancing after 3600.000000 seconds

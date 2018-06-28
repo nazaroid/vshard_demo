@@ -1,0 +1,1 @@
+# This project was made to demonstrate working with tarantool vshard module
